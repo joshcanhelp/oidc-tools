@@ -1,0 +1,25 @@
+{
+  "name": "oidc-tools",
+  "version": "0.1.0",
+  "description": "A collection of tools helpful when working with OpenID Connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshcanhelp/oidc-tools.git"
+  },
+  "keywords": [
+    "OpenID",
+    "Connect",
+    "OIDC",
+    "JavaScript"
+  ],
+  "author": "Josh Cunningham <josh@joshcanhelp.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshcanhelp/oidc-tools/issues"
+  },
+  "homepage": "https://github.com/joshcanhelp/oidc-tools#readme"
+}
