@@ -1,3 +1,8 @@
+if (!process.argv[2]) {
+    console.log("❌ Need a JWT as the second argument");
+    process.exit(1);
+}
+
 const jwtHeader = process.argv[2].split(".")[0];
 const jwtPayload = process.argv[2].split(".")[1];
 const headerDecoded = Buffer.from(jwtHeader, "base64").toString("utf8");
