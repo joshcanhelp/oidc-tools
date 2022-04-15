@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/joshcanhelp/oidc-tools#readme",
   "dependencies": {
-    "jose": "^3.14.0"
+    "jose": "^4.6.1"
   }
 }

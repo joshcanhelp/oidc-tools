@@ -1,9 +1,8 @@
-const { generateKeyPair } = require('jose/util/generate_key_pair');
-const { fromKeyLike } = require('jose/jwk/from_key_like');
+const { generateKeyPair, exportJWK } = require('jose');
 
 (async () => {
     const { privateKey } = await generateKeyPair('RS256');
-    const jwk = await fromKeyLike(privateKey);
+    const jwk = await exportJWK(privateKey);
     console.log(JSON.stringify(jwk));
 })();
 
